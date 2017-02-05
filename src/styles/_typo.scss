@@ -24,12 +24,22 @@ span, p, a, li {
     line-height: 1.8;
 }
 
-p.sm {
-  font-size: 17px;
+@media (min-width: 996px) {
+    h1 { font-size: 53px; }
+    h2 { font-size: 43px; }
+    h3 { font-size: 33px; }
+    h4 { font-size: 28px; }
+    span, p, a, li { font-size: 22px; }
+    p.sm { font-size: 17px; }
 }
 
-h1 { font-size: 53px; }
-h2 { font-size: 43px; }
-h3 { font-size: 33px; }
-h4 { font-size: 28px; }
-span, p, a, li { font-size: 22px; }
+h1 { font-size: 38px; }
+h2 { font-size: 31px; }
+h3 { font-size: 22px; }
+h4 { font-size: 18px; }
+span, p, a, li { font-size: 16px; }
+
+p.sm {
+  font-size: 13px;
+}
+
