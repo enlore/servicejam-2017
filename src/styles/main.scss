@@ -1,0 +1,60 @@
+* { box-sizing: border-box; }
+
+$neonGreen: #BEFFEB;
+$lightGreen: #F3FFFC;
+$grey: #323B41;
+$darkGrey: #232323;
+
+@import '_typo.scss';
+
+html, body {
+    background-color: $lightGreen;
+}
+
+.addressGroup p {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.contentWrap {
+    @media (min-width: 996px) {
+        margin-left: 20%;
+        margin-right: 100px;
+    }
+}
+
+.header {
+    margin-left: 82px;
+    max-width: 1122px;
+}
+
+header, section, footer {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.u-underline--heavy {
+    border-bottom: 5px solid $grey;
+    padding-bottom: 19px;
+}
+
+.u-border {
+    border: 1px solid $grey;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.u-imgResp {
+    display: block;
+    max-width: 100%;
+}
+
+.u-textCenter {
+    text-align: center;
+}
+
+.u-textBold {
+    font-weight: bold;
+}
