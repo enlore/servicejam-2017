@@ -136,6 +136,9 @@ header, section, footer {
 
 footer {
   margin-top: 508px; }
+  footer a {
+    color: #F3FFFC;
+    text-shadow: 2px 2px 4px #405155, 2px -2px 4px #405155, -2px -2px 4px #405155, -2px 2px 4px #405155; }
 
 table.resp tr, table.resp td {
   display: block; }

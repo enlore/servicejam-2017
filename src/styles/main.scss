@@ -104,7 +104,17 @@ header, section, footer {
 }
 
 footer {
-    margin-top: 508px;
+  $fog: #405155;
+  a {
+    color: $lightGreen;
+    text-shadow:
+      2px 2px   4px $fog,
+      2px -2px  4px $fog,
+      -2px -2px 4px $fog,
+      -2px 2px  4px $fog;
+  }
+
+  margin-top: 508px;
 }
 
 table.resp {
