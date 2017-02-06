@@ -61,10 +61,13 @@ html, body {
   margin-bottom: 8px;
   margin-top: 8px; }
 
-@media (min-width: 996px) {
-  .contentWrap {
-    margin-left: 20%;
-    margin-right: 100px; } }
+.contentWrap {
+  margin-left: 8px;
+  margin-right: 8px; }
+  @media (min-width: 996px) {
+    .contentWrap {
+      margin-left: 20%;
+      margin-right: 100px; } }
 
 @media (min-width: 996px) {
   .header {
@@ -77,14 +80,31 @@ header, section, footer {
   padding-left: 32px;
   padding-right: 32px; }
 
+table tr, table td {
+  display: block; }
+
+@media (min-width: 996px) {
+  table tr {
+    display: table-row; }
+  table td {
+    display: table-cell; } }
+
+table {
+  border-collapse: collapse;
+  -webkit-overflow-scrolling: touch; }
+
 .u-underline--heavy {
   border-bottom: 5px solid #323B41;
   padding-bottom: 19px; }
 
 .u-border {
   border: 1px solid #323B41;
-  padding-left: 70px;
-  padding-right: 70px; }
+  padding-left: 32px;
+  padding-right: 32px; }
+  @media (min-width: 996px) {
+    .u-border {
+      padding-left: 70px;
+      padding-right: 70px; } }
 
 .u-imgResp {
   display: block;
