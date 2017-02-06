@@ -74,7 +74,7 @@ html, body {
   margin-right: 8px; }
   @media (min-width: 768px) {
     .contentWrap {
-      margin-left: 20%;
+      margin-left: 30%;
       margin-right: 100px; } }
 
 .header {
@@ -91,19 +91,34 @@ html, body {
   background-repeat: no-repeat;
   background-position: 0% 95%; }
 
+.diamondBg {
+  background-image: url("/img/big-diamond.png");
+  background-repeat: no-repeat;
+  background-position: 70% 85%;
+  background-size: 700px; }
+
+.squareBg {
+  background-image: url("/img/big-square.png");
+  background-repeat: no-repeat;
+  background-position: 10% 59%;
+  background-size: 500px; }
+
 header, section, footer {
   padding-top: 64px;
   padding-bottom: 64px;
   padding-left: 32px;
   padding-right: 32px; }
 
-table tr, table td {
+footer {
+  margin-top: 508px; }
+
+table.resp tr, table.resp td {
   display: block; }
 
 @media (min-width: 996px) {
-  table tr {
+  table.resp tr {
     display: table-row; }
-  table td {
+  table.resp td {
     display: table-cell; } }
 
 table {

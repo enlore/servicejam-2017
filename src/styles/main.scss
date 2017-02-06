@@ -31,7 +31,7 @@ html, body {
     margin-right: 8px;
 
     @media (min-width: 768px) {
-        margin-left: 20%;
+        margin-left: 30%;
         margin-right: 100px;
     }
 }
@@ -53,6 +53,21 @@ html, body {
     background-position: 0% 95%;
 }
 
+.diamondBg {
+    background-image: url('/img/big-diamond.png');
+    background-repeat: no-repeat;
+    background-position: 70% 85%;
+    background-size: 700px;
+    //padding-bottom: 100px;
+}
+
+.squareBg {
+    background-image: url('/img/big-square.png');
+    background-repeat: no-repeat;
+    background-position: 10% 59%;
+    background-size: 500px;
+    //background-size: contain;
+}
 
 header, section, footer {
     padding-top: 64px;
@@ -61,8 +76,11 @@ header, section, footer {
     padding-right: 32px;
 }
 
+footer {
+    margin-top: 508px;
+}
 
-table {
+table.resp {
     tr, td {
         display: block;
     }
