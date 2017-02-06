@@ -60,19 +60,36 @@ html, body {
 .addressGroup p {
   margin-bottom: 8px;
   margin-top: 8px; }
+  @media (min-width: 1325px) {
+    .addressGroup p {
+      font-size: 1.03em; } }
+
+@media (min-width: 996px) {
+  .addressGroup {
+    position: relative;
+    top: 35px; } }
 
 .contentWrap {
   margin-left: 8px;
   margin-right: 8px; }
-  @media (min-width: 996px) {
+  @media (min-width: 768px) {
     .contentWrap {
       margin-left: 20%;
       margin-right: 100px; } }
 
-@media (min-width: 996px) {
-  .header {
-    margin-left: 82px;
-    max-width: 1122px; } }
+.header {
+  background-image: url("/img/big-triangle.png");
+  background-repeat: no-repeat;
+  background-position: 100% 20%; }
+  @media (min-width: 996px) {
+    .header {
+      margin-left: 82px;
+      max-width: 1122px; } }
+
+.circleBg {
+  background-image: url("/img/big-circle.png");
+  background-repeat: no-repeat;
+  background-position: 0% 95%; }
 
 header, section, footer {
   padding-top: 64px;
