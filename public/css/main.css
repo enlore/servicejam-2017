@@ -5,6 +5,10 @@ html, body {
   font-size: 22px;
   color: #232323; }
 
+a {
+  color: #232323;
+  text-decoration: none; }
+
 h1, h2, h3, h4 {
   line-height: 1.2;
   font-weight: normal;
@@ -71,11 +75,28 @@ html, body {
 
 .contentWrap {
   margin-left: 8px;
-  margin-right: 8px; }
+  margin-right: 8px;
+  max-width: 865px; }
   @media (min-width: 768px) {
     .contentWrap {
       margin-left: 30%;
       margin-right: 100px; } }
+  @media (min-width: 1600px) {
+    .contentWrap {
+      margin-left: 30%;
+      margin-right: 100px; } }
+
+.jam {
+  margin-left: 32px; }
+  .jam h3 {
+    text-transform: uppercase;
+    margin: 8px; }
+  .jam .jar {
+    margin-bottom: 32px; }
+  @media (min-width: 768px) {
+    .jam {
+      float: left;
+      width: 20%; } }
 
 .header {
   background-image: url("/img/big-triangle.png");
@@ -85,6 +106,10 @@ html, body {
     .header {
       margin-left: 82px;
       max-width: 1122px; } }
+
+.faq .q {
+  margin-top: 2em;
+  margin-bottom: 2em; }
 
 .circleBg {
   background-image: url("/img/big-circle.png");

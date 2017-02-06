@@ -13,8 +13,20 @@ block body
   //img(src="/img/big-triangle.png")
   //img(src="/img/jam-jar.png")
 
+  .jam
+    img.jar.u-imgResp(src='/img/jam-jar.png')
+
+    a(href="#about")
+      h3 About
+
+    a(href="#schedule")
+      h3 Schedule
+
+    a(href="#faq")
+      h3 FAQ
+
   .circleBg
-    section.about.contentWrap.u-border
+    section#about.about.contentWrap.u-border
       h2 Feb 17th - 19th, 2017
       p.
         In more than 100 cities around the world each year, design thinking
@@ -49,7 +61,7 @@ block body
               + "&key=AIzaSyDJa5Ud03RnFmxP4TsC0JPC949HRAuhQ6k")
 
   .diamondBg
-    section.schedule.contentWrap
+    section#schedule.schedule.contentWrap
       h2 Schedule
 
       h3.u-underline--heavy Thursday, Feb 16
@@ -88,11 +100,11 @@ block body
             h4 Kickoff, Welcome and Intro
 
   .squareBg
-    section.faq.contentWrap
+    section#faq.faq.contentWrap
       h2 FAQ
       h3.u-underline--heavy Design Questions
 
-      h4 What is Service Design?
+      h4.q What is Service Design?
       p.
         Service design is the activity of planning and organizing people,
         infrastructure, communication and material components of a service in
@@ -101,7 +113,7 @@ block body
         according to the needs of customers or participants, so that the service
         is user-friendly, competitive and relevant to the customers. 
 
-       What is a Service?
+      h4.q What is a Service?
       p.
         We experience services every day — buying insurance, taking a flight,
         filing a tax return, receiving a heart transplant. A service is an
